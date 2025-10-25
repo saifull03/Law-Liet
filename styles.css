@@ -36,13 +36,63 @@ nav ul li a{
 }
 
 .get_started-btn{
+    margin-top: 20px;
     display: inline-block;
     text-decoration: none;
-    padding: 14px 40px;
-color: #094B72;
+    padding: 18px 60px;
+background-color: #094B72;
 font-size: 14px;
-border-radius: 30px;
+border-radius: 8px;
+color: aliceblue;
+transition: 0.5;
 
 
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 16px;
+/* leading-trim: NONE; */
+line-height: 140%;
+letter-spacing: 8%;
+vertical-align: middle;
+
+
+}
+.content{
+    margin-top: 10%;
+   width: 891;
+height: 216;
+top: 249px;
+left: 55px;
+/* angle: 0 deg; */
+opacity: 1;
+
+}
+.content h1{
+  font-family: Playfair Display;
+font-weight: 700;
+font-size: 90px;
+color: #094B72;
+/* leading-trim: NONE; */
+line-height: 120%;
+letter-spacing: 2%;
+
+}
+.content p{
+    margin-top: 10px;
+    font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-size: 24px;
+/* leading-trim: NONE; */
+line-height: 158%;
+letter-spacing: 0.5px;
+vertical-align: middle;
+
+
+}
+
+
+
+.get_started-btn:hover{
+    background-color: #2D2F30;
 }
 
