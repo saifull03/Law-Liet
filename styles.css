@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  /* color: #f9f8f9; */
+}
+body {
+  background-color: #f9f8f9;
 }
 .hero {
   width: 100;
@@ -20,7 +24,7 @@ nav {
   margin: center;
   padding: 25px 200px;
   justify-content: space-between;
-  background-color: rgb(247, 252, 234);
+  background-color: #fefffe;
 }
 .logo {
   width: 140 px;
@@ -93,7 +97,7 @@ nav ul li a {
 }
 
 .hero-image {
-  width: 543;
+  width: 57vh;
   position: absolute;
   bottom: 0;
   right: 22%;
